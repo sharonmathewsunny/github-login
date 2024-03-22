@@ -1,0 +1,226 @@
+*{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-page{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #0d1117;
+}
+
+.container{
+    position: absolute;
+    top: 0px;
+    width: 288px;
+}
+
+#logo{
+    width: 100%;
+    height: 49.8px;
+    padding-top: 32px;
+    padding-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo i{
+    scale: 1.5;
+    color: white;
+}
+
+#heading{
+    width:100%;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#heading h1{
+    padding: 0px;
+    margin: 0px;
+    font-size: 24px;
+    color: white;
+    font-weight: lighter;
+}
+
+.form-container{
+    margin: 16px 0px 0px;
+    width: 100%;
+    height: 218.4px;
+    border: 1px solid rgb(39, 39, 39);;
+    border-radius: 5px;
+    background-color: #161B22;
+}
+
+#form{
+    margin: 20px 16px;
+    /* border: solid; */
+    height: 100%;
+    
+}
+
+.username{
+    width: 100%;
+    /* border: solid; */
+}
+
+.username #label1{
+    color: white;
+    font-weight: lighter;
+    margin-bottom: 8px;
+}
+
+.username input{
+    margin: 4px 0px 16px;
+    width: 89%;
+    padding: 5px 12px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: rgb(62, 61, 61);
+    outline-color: #2F81F7;
+    background-color: #0d1117;
+    color: white;
+
+}
+
+.password{
+    width: 100%;
+    /* border: solid; */
+}
+
+.password #label2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+#label2 span{
+    color: white;
+    font-weight: lighter;
+}
+
+#label2 a{
+    text-decoration: none;
+    color: #2F81F7;
+    font-size: 13px;
+}
+
+.password input{
+    margin: 4px 0px 16px;
+    width: 89%;
+    padding: 5px 12px;
+    border-radius: 5px;
+    border: 1pt solid;
+    border-color: rgb(62, 61, 61);
+    outline-color: #2F81F7;
+    background-color: #0d1117;
+    color: white;
+}
+
+#btn{
+    /* border: solid; */
+    width: 98%;
+    height: 31.6px;
+
+}
+
+#btn button{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #238636;
+    color: white;
+    font-size: 15px;
+    font-weight: 530;
+    border: none;
+}
+
+#btn button:hover{
+    background-color: #33ba49;
+}
+
+.callout{
+    margin-top: 16px;
+    border: 1px solid rgb(56, 56, 56);
+    border-radius: 5px;
+    width: 90%;
+    height: 42.6px;
+    padding: 16px;
+}
+
+.callout #signin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#signin a{
+    text-decoration: none;
+    color: #2F81F7;
+}
+
+#signin a:hover{
+    text-decoration: underline;
+}
+
+.callout #create{
+    margin-top: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#create span{
+    color: white;
+}
+
+#create a{
+    text-decoration: none;
+    color: #2F81F7;
+}
+
+#create a:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    margin-top: 500px;
+    width: 1012px;
+    height: 98px;
+    padding: 0px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+ul li{
+    list-style: none;
+    display:inline;
+    margin: 10px 15px
+    
+
+}
+
+ul a{
+    text-decoration: none;
+    color: #848D97;
+    font-size: 13px;
+}
